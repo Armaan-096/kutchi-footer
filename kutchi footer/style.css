@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    background-color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.card {
+    color: #383431;
+    background-color: #FFFFFF;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 0;
+    padding: 12px 28px;
+    background-color: #383431;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+li {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #42443E;
+    font-size: 14px;
+}
+
+input {
+    border-radius: 2px;
+    background: #fff;
+    color: #42443E;
+    border: 1px solid #42443E;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+img {
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.row-2 li:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 6rem;
+    border-radius: 0.7rem 0.7rem 0 0 ;
+    overflow-x: hidden;
+    background-color:  #EDF3F7;
+    color: #546E7A;
+    padding: 20px 0;
+}
+
+small {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.social {
+    position: relative;
+    left: -10px;
+}
+
+.btn {
+    background-color: #42443E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.fa {
+    background-color: #42443E;
+    padding: 8px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    border-radius: 0;
+    margin: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.line1{
+    margin-bottom: 0.7rem;
+    height: 0.5rem;
+    width: 70%;
+    background: rgb(255,255,255);
+    background: linear-gradient(22deg, rgb(255, 255, 255) 20%, rgb(14, 183, 255) 100%);
+    border-radius: 0 1rem 0 0 ;
+}
+
+.line2{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    height: 0.5rem;
+    width: 90%;
+    background: rgb(0,0,0);
+background: linear-gradient(143deg, rgba(0,0,0,0) 0%, rgb(4, 87, 122) 100%);
+    border-radius: 0 0 1rem 0;
+}
+
+#links{
+    font-weight: 500;
+    color: black;
+}
+
+/* .download-btn{
+    border: 2px solid white;
+    background-color: #9dc1da;
+    padding: 0.5rem 5rem;
+    border-radius: 0.7rem ;
+    color: white;
+    font-weight: 600;
+} */
+
+.download-btn {
+    position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+  
+  .download-btn .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .download-btn:hover {
+    color: white;
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .download-btn:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .download-btn:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .download-btn::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.line {
+    background: linear-gradient(90deg, rgba(1,35,47,1) 0%, rgba(0,80,148,1) 18%, rgba(125,233,255,1) 100%); 
+    border-radius: 2px;
+    width: 92%;
+    height: 2px;
+}
+
+a span {
+    font-size: 14px;
+}
+
+.active-1 span:hover {
+    color: white;
+}
+
+.third-row {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.third-row li {
+    justify-content: space-between;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+li.active-1 {
+    padding: 1.7vh;
+}
+
+.active-1 {
+    background-color: #42443E;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+figcaption {
+    font-size: 14px;
+    text-align: center;
+}
+
+figure img {
+    max-width: 70px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    h5 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+    }
+
+    .fa {
+        width: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h5 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+
+    img,
+    figure img {
+        max-width: 40px;
+    }
+
+    .fa {
+        width: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h5 {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    .fa {
+        width: 18px;
+        font-size: 10px;
+    }
+
+    .third-row {
+        padding: 5px 10px;
+    }
+
+    small {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
